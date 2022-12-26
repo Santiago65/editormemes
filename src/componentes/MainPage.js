@@ -188,10 +188,10 @@ class MainPage extends React.Component {
         <div className="main-content">
           <div className="sidebar">
           <div class="redes">
-        <a href="https://www.facebook.com/santiagoroberto.carreira"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.linkedin.com/in/santiago-carreira-99a12522a/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://twitter.com/SantiagoCarrei6"><i class="fab fa-twitter"></i></a>
-        <a href="https://github.com/Santiago65"><i class="fab fa-github"></i></a>
+        <a href="https://www.facebook.com/santiagoroberto.carreira"target="_blank" rel="noreferrer"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/santiago-carreira-99a12522a/"target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/SantiagoCarrei6"><i class="fab fa-twitter"target="_blank" rel="noreferrer"></i></a>
+        <a href="https://github.com/Santiago65"target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
         
     </div>
             <h3>Crea tu propio Meme</h3>
@@ -224,7 +224,7 @@ class MainPage extends React.Component {
           </div>
         </div>
         <Modal className="meme-gen-modal" isOpen={this.state.modalIsOpen}>
-          <ModalHeader toggle={this.toggle}>Edita tu Meme</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Edita tu Meme, podes agregar texto arriba o abajo, también podes mover el texto a tu agrado y despues descargar tu Meme.</ModalHeader>
           <ModalBody>
             <svg
               width={newWidth}
